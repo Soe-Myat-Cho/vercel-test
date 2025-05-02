@@ -71,7 +71,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="flex relative h-screen bg-[url('https://media1.calvinklein.com/images/20250318/HP/HP_BB_Lily.webp')] bg-cover bg-center mt-1">
+      <div className="flex relative h-screen bg-[url('https://media1.calvinklein.com/images/20250225/HP/NewJeans_2x.webp')] bg-cover bg-center mt-1">
         <div className="absolute bottom-10 left-5 text-start">
           <h2 className="font-thin text-7xl text-white">
             SPRING ENERGY <br /> AMPLIFIED
@@ -82,6 +82,42 @@ function App() {
           </p>
         </div>
       </div>
+      <section className="min-h-screen h-96 bg-cover bg-center flex items-center justify-center text-white text-center">
+        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+          <div className="text-center">
+            <h1 className="text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">
+              FASHION REFLECTS WHO YOU ARE
+            </h1>
+            <p className="mt-8 text-lg text-gray-500 sm:text-xl">
+              "Fashion is part of the daily air and it changes all the time..."
+            </p>
+            <div className="mt-10 flex items-center justify-center gap-x-6">
+              <a
+                href="#"
+                className="bg-gray-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-gray-700"
+              >
+                Shop Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="flex flex-col md:flex-row mt-1 space-x-1">
+        <div className="w-full md:w-1/2">
+          <img
+            src="https://calvinklein.scene7.com/is/image/CalvinKlein/21898171_001_main?wid=1487&qlt=80%2C0&resMode=sharp2&op_usm=0.9%2C1.0%2C8%2C0&iccEmbed=0&fmt=webp"
+            alt=""
+          />
+        </div>
+        <div className="w-full md:w-1/2">
+          <img
+            src="https://calvinklein.scene7.com/is/image/CalvinKlein/11002090_501_main?wid=1487&qlt=80%2C0&resMode=sharp2&op_usm=0.9%2C1.0%2C8%2C0&iccEmbed=0&fmt=webp"
+            alt=""
+          />
+        </div>
+      </div>
+
       <footer id="contact" className="bg-gray-900 text-white text-center p-10">
         <p>&copy; 2025 ShopMinimal. All rights reserved.</p>
       </footer>
