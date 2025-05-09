@@ -7,7 +7,7 @@ function App() {
         class="flex opacity-95 bg-white border-b px-6 py-6 justify-between items-center fixed top-0 w-full transform transition duration-300 ease-in-out z-50"
       >
         <h1 class="text-3xl">
-          <a href="/">Elegance</a>
+          <a href="/">Testing</a>
         </h1>
 
         <ul class="hidden md:flex gap-6">
