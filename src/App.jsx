@@ -1,4 +1,5 @@
 import { Link, Links } from "react-router-dom";
+import Hero from "./assets/Hero.png";
 function App() {
   return (
     <>
@@ -53,7 +54,22 @@ function App() {
         </div>
       </nav>
 
-      <div className="flex flex-col md:flex-row mt-20">
+      <div className="mt-20 flex items-center justify-center h-screen bg-[url('https://raw.githubusercontent.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown/refs/heads/main/src/assets/Hero.png')] bg-cover bg-center">
+        <div className="text-center">
+          {/* <h2 className="font-thin text-7xl text-white">
+            SPRING ENERGY <br /> AMPLIFIED
+          </h2> */}
+          <p className="text-4xl font-thin text-white mt-4">
+            Signature fits with modern edge. Effortless attitude through the
+            seasons
+          </p>
+          <button className="bg-black hover:scale-105 text-xl text-white py-3 px-7 rounded-full mt-4 transition-transform duration-200 ease-in-out">
+            Shop Now
+          </button>
+        </div>
+      </div>
+
+      <div className="flex flex-col md:flex-row ">
         <div className="w-full md:w-1/2">
           <img
             src="https://media1.calvinklein.com/images/20250205_misc/PLP/R296_SKO_NA_FEB_90S_LOOSE_JEAN_01_003_R4_2x.webp"
@@ -82,6 +98,7 @@ function App() {
           </p>
         </div>
       </div>
+
       <section className="min-h-screen h-96 bg-cover bg-center flex items-center justify-center text-white text-center">
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="text-center">
